@@ -14,7 +14,7 @@ class SplahsPage extends StatelessWidget {
         body: GestureDetector(
 
           onTap: (){
-           Get.to(FirstPage(),transition: Transition.downToUp);
+           Get.to(const FirstPage(),transition: Transition.downToUp);
           },
 
           child: Stack(

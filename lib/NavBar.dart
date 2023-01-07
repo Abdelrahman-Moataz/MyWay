@@ -1,9 +1,12 @@
 import 'package:banda/reusable/const.dart';
+import 'package:banda/try/mainpage.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import 'nav_bar_pages/home.dart';
 import 'nav_bar_pages/menu_page.dart';
 import 'nav_bar_pages/more_page.dart';
+import 'nav_bar_pages/offer.dart';
 import 'nav_bar_pages/profile.dart';
 
 
@@ -21,14 +24,8 @@ class _NavBarPageState extends State<NavBarPage> {
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     MenuPage(),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 2: School',
-      style: optionStyle,
-    ),
+    OfferPage(),
+    HomePage(),
      Profile(),
      MorePage(),
   ];

@@ -1,3 +1,4 @@
+import 'package:banda/loginpages/signup.dart';
 import 'package:banda/reusable/const.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -61,7 +62,9 @@ class FirstPage extends StatelessWidget {
               },),
               const SizedBox(height: 20,),
 
-              BottonReuseable(title: "Create an Account",tap: (){},),
+              BottonReuseable(title: "Create an Account",tap: (){
+                Get.to(const SignupPage());
+              },),
 
 
               const Expanded(child: SizedBox()),

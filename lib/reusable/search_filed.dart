@@ -9,6 +9,7 @@ class SearchFiled extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
+
           prefixIcon: const Icon(Icons.search),
           hintText: "Search food",
           border: OutlineInputBorder(
