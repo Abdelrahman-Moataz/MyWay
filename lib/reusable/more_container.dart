@@ -6,17 +6,19 @@ class MoreContainer extends StatelessWidget {
 
   String? title;
   IconData? iconed;
+  void Function()? tap;
 
    MoreContainer({
      this.title,
      this.iconed,
+     this.tap,
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){},
+      onTap: tap,
       child: Row(
         children: [
           Flexible(

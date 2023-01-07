@@ -1,10 +1,10 @@
 import 'package:banda/NavBar.dart';
+import 'package:banda/loginpages/forget_password.dart';
 import 'package:banda/loginpages/signup.dart';
 import 'package:banda/reusable/const.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import '../reusable/bootom_reusable.dart';
 import '../reusable/logform.dart';
 import '../reusable/socialmedia_button.dart';
@@ -45,7 +45,9 @@ class LoginPage extends StatelessWidget {
                     Get.to(const NavBarPage());
                   },title: "Login",filledColor: kmain,),
                   const SizedBox(height: 20,),
-                  TextButton(onPressed: (){}, child: const Text("Forget your password",style: TextStyle(color: Colors.grey),)),
+                  TextButton(onPressed: (){
+                    Get.to(const ForgetPasswordPage());
+                  }, child: const Text("Forget your password",style: TextStyle(color: Colors.grey),)),
                   const SizedBox(height: 30,),
                   const Text("or Login with"),
                   const SizedBox(height: 20,),
