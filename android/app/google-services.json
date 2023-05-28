@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1071809965209",
+    "project_id": "my-way-e1538",
+    "storage_bucket": "my-way-e1538.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071809965209:android:ce679186afa619c539dc08",
+        "android_client_info": {
+          "package_name": "com.example.banda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071809965209-e76e43hmrpt0i4eqvrpg2v0heoqf6f18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.banda",
+            "certificate_hash": "d220d75e7c26b750e7080e29e23ca93812ef1f0e"
+          }
+        },
+        {
+          "client_id": "1071809965209-ecmg5qs6rvit52g1c3d8adm5bifl6vji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSkM7nQUhIsrrNqnoHSOCwGZlUVe3Y1-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071809965209-ecmg5qs6rvit52g1c3d8adm5bifl6vji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
